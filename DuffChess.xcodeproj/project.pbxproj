@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428BABFD19755E4B00401BDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428BABFC19755E4B00401BDF /* Foundation.framework */; };
+		428BABFF19755E4B00401BDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428BABFE19755E4B00401BDF /* CoreGraphics.framework */; };
+		428BAC0119755E4B00401BDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428BAC0019755E4B00401BDF /* UIKit.framework */; };
+		428BAC0719755E4B00401BDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 428BAC0519755E4B00401BDF /* InfoPlist.strings */; };
+		428BAC0919755E4B00401BDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 428BAC0819755E4B00401BDF /* main.m */; };
+		428BAC0D19755E4B00401BDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 428BAC0C19755E4B00401BDF /* AppDelegate.m */; };
+		428BAC0F19755E4B00401BDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428BAC0E19755E4B00401BDF /* Images.xcassets */; };
+		428BAC1619755E4B00401BDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428BAC1519755E4B00401BDF /* XCTest.framework */; };
+		428BAC1719755E4B00401BDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428BABFC19755E4B00401BDF /* Foundation.framework */; };
+		428BAC1819755E4B00401BDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428BAC0019755E4B00401BDF /* UIKit.framework */; };
+		428BAC2019755E4B00401BDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 428BAC1E19755E4B00401BDF /* InfoPlist.strings */; };
+		428BAC2219755E4B00401BDF /* DuffChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 428BAC2119755E4B00401BDF /* DuffChessTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428BAC1919755E4B00401BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428BABF119755E4B00401BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428BABF819755E4B00401BDF;
+			remoteInfo = DuffChess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		428BABF919755E4B00401BDF /* DuffChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuffChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428BABFC19755E4B00401BDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		428BABFE19755E4B00401BDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		428BAC0019755E4B00401BDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		428BAC0419755E4B00401BDF /* DuffChess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuffChess-Info.plist"; sourceTree = "<group>"; };
+		428BAC0619755E4B00401BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		428BAC0819755E4B00401BDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		428BAC0A19755E4B00401BDF /* DuffChess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuffChess-Prefix.pch"; sourceTree = "<group>"; };
+		428BAC0B19755E4B00401BDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		428BAC0C19755E4B00401BDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		428BAC0E19755E4B00401BDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428BAC1419755E4B00401BDF /* DuffChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuffChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428BAC1519755E4B00401BDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		428BAC1D19755E4B00401BDF /* DuffChessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuffChessTests-Info.plist"; sourceTree = "<group>"; };
+		428BAC1F19755E4B00401BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		428BAC2119755E4B00401BDF /* DuffChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuffChessTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428BABF619755E4B00401BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BABFF19755E4B00401BDF /* CoreGraphics.framework in Frameworks */,
+				428BAC0119755E4B00401BDF /* UIKit.framework in Frameworks */,
+				428BABFD19755E4B00401BDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428BAC1119755E4B00401BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BAC1619755E4B00401BDF /* XCTest.framework in Frameworks */,
+				428BAC1819755E4B00401BDF /* UIKit.framework in Frameworks */,
+				428BAC1719755E4B00401BDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428BABF019755E4B00401BDF = {
+			isa = PBXGroup;
+			children = (
+				428BAC0219755E4B00401BDF /* DuffChess */,
+				428BAC1B19755E4B00401BDF /* DuffChessTests */,
+				428BABFB19755E4B00401BDF /* Frameworks */,
+				428BABFA19755E4B00401BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		428BABFA19755E4B00401BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428BABF919755E4B00401BDF /* DuffChess.app */,
+				428BAC1419755E4B00401BDF /* DuffChessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428BABFB19755E4B00401BDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				428BABFC19755E4B00401BDF /* Foundation.framework */,
+				428BABFE19755E4B00401BDF /* CoreGraphics.framework */,
+				428BAC0019755E4B00401BDF /* UIKit.framework */,
+				428BAC1519755E4B00401BDF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		428BAC0219755E4B00401BDF /* DuffChess */ = {
+			isa = PBXGroup;
+			children = (
+				428BAC0B19755E4B00401BDF /* AppDelegate.h */,
+				428BAC0C19755E4B00401BDF /* AppDelegate.m */,
+				428BAC0E19755E4B00401BDF /* Images.xcassets */,
+				428BAC0319755E4B00401BDF /* Supporting Files */,
+			);
+			path = DuffChess;
+			sourceTree = "<group>";
+		};
+		428BAC0319755E4B00401BDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				428BAC0419755E4B00401BDF /* DuffChess-Info.plist */,
+				428BAC0519755E4B00401BDF /* InfoPlist.strings */,
+				428BAC0819755E4B00401BDF /* main.m */,
+				428BAC0A19755E4B00401BDF /* DuffChess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		428BAC1B19755E4B00401BDF /* DuffChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				428BAC2119755E4B00401BDF /* DuffChessTests.m */,
+				428BAC1C19755E4B00401BDF /* Supporting Files */,
+			);
+			path = DuffChessTests;
+			sourceTree = "<group>";
+		};
+		428BAC1C19755E4B00401BDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				428BAC1D19755E4B00401BDF /* DuffChessTests-Info.plist */,
+				428BAC1E19755E4B00401BDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428BABF819755E4B00401BDF /* DuffChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428BAC2519755E4B00401BDF /* Build configuration list for PBXNativeTarget "DuffChess" */;
+			buildPhases = (
+				428BABF519755E4B00401BDF /* Sources */,
+				428BABF619755E4B00401BDF /* Frameworks */,
+				428BABF719755E4B00401BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuffChess;
+			productName = DuffChess;
+			productReference = 428BABF919755E4B00401BDF /* DuffChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428BAC1319755E4B00401BDF /* DuffChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428BAC2819755E4B00401BDF /* Build configuration list for PBXNativeTarget "DuffChessTests" */;
+			buildPhases = (
+				428BAC1019755E4B00401BDF /* Sources */,
+				428BAC1119755E4B00401BDF /* Frameworks */,
+				428BAC1219755E4B00401BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428BAC1A19755E4B00401BDF /* PBXTargetDependency */,
+			);
+			name = DuffChessTests;
+			productName = DuffChessTests;
+			productReference = 428BAC1419755E4B00401BDF /* DuffChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428BABF119755E4B00401BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Duff Development";
+				TargetAttributes = {
+					428BAC1319755E4B00401BDF = {
+						TestTargetID = 428BABF819755E4B00401BDF;
+					};
+				};
+			};
+			buildConfigurationList = 428BABF419755E4B00401BDF /* Build configuration list for PBXProject "DuffChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 428BABF019755E4B00401BDF;
+			productRefGroup = 428BABFA19755E4B00401BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428BABF819755E4B00401BDF /* DuffChess */,
+				428BAC1319755E4B00401BDF /* DuffChessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428BABF719755E4B00401BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BAC0719755E4B00401BDF /* InfoPlist.strings in Resources */,
+				428BAC0F19755E4B00401BDF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428BAC1219755E4B00401BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BAC2019755E4B00401BDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428BABF519755E4B00401BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BAC0D19755E4B00401BDF /* AppDelegate.m in Sources */,
+				428BAC0919755E4B00401BDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428BAC1019755E4B00401BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BAC2219755E4B00401BDF /* DuffChessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428BAC1A19755E4B00401BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428BABF819755E4B00401BDF /* DuffChess */;
+			targetProxy = 428BAC1919755E4B00401BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		428BAC0519755E4B00401BDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428BAC0619755E4B00401BDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		428BAC1E19755E4B00401BDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428BAC1F19755E4B00401BDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428BAC2319755E4B00401BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428BAC2419755E4B00401BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428BAC2619755E4B00401BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuffChess/DuffChess-Prefix.pch";
+				INFOPLIST_FILE = "DuffChess/DuffChess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		428BAC2719755E4B00401BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuffChess/DuffChess-Prefix.pch";
+				INFOPLIST_FILE = "DuffChess/DuffChess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		428BAC2919755E4B00401BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DuffChess.app/DuffChess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuffChess/DuffChess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DuffChessTests/DuffChessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		428BAC2A19755E4B00401BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DuffChess.app/DuffChess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuffChess/DuffChess-Prefix.pch";
+				INFOPLIST_FILE = "DuffChessTests/DuffChessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428BABF419755E4B00401BDF /* Build configuration list for PBXProject "DuffChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428BAC2319755E4B00401BDF /* Debug */,
+				428BAC2419755E4B00401BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428BAC2519755E4B00401BDF /* Build configuration list for PBXNativeTarget "DuffChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428BAC2619755E4B00401BDF /* Debug */,
+				428BAC2719755E4B00401BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		428BAC2819755E4B00401BDF /* Build configuration list for PBXNativeTarget "DuffChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428BAC2919755E4B00401BDF /* Debug */,
+				428BAC2A19755E4B00401BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428BABF119755E4B00401BDF /* Project object */;
+}
