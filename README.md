@@ -6,7 +6,7 @@ Grov oppdeling av programmet:
 
 Control:
 Hovedprogram som kan starte og styre ett nytt sjakkspill.
-Leser inn trekk fra brukeren -> endrer på model-laget -> endrer på utsyn.
+Leser inn trekk fra brukeren -> endrer på brettet -> endrer på utsyn.
 
 Model:
 Et brett-objekt med metoder for alle sjakkrelaterte oppdateringer
