@@ -1,5 +1,5 @@
 //
-//  main.m
+//  DuffAppDelegate.h
 //  DuffChess
 //
 //  Created by Gudbrand Tandberg on 20/08/14.
@@ -8,7 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[])
-{
-	return NSApplicationMain(argc, argv);
-}
+@interface DuffAppDelegate : NSObject <NSApplicationDelegate>
+
+@property (assign) IBOutlet NSWindow *window;
+
+@end

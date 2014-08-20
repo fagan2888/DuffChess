@@ -1,14 +1,13 @@
 //
-//  main.m
+//  DuffChessBoard.m
 //  DuffChess
 //
 //  Created by Gudbrand Tandberg on 20/08/14.
 //  Copyright (c) 2014 Duff Development. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import "DuffChessBoard.h"
 
-int main(int argc, const char * argv[])
-{
-	return NSApplicationMain(argc, argv);
-}
+@implementation DuffChessBoard
+
+@end

@@ -18,7 +18,6 @@
 		4273899A19A538CE006D74C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4273897919A538CD006D74C1 /* Cocoa.framework */; };
 		427389A219A538CE006D74C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 427389A019A538CE006D74C1 /* InfoPlist.strings */; };
 		427389A419A538CE006D74C1 /* DuffChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 427389A319A538CE006D74C1 /* DuffChessTests.m */; };
-		427389AF19A53985006D74C1 /* DuffChessBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 427389AE19A53985006D74C1 /* DuffChessBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +50,6 @@
 		4273899F19A538CE006D74C1 /* DuffChessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuffChessTests-Info.plist"; sourceTree = "<group>"; };
 		427389A119A538CE006D74C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		427389A319A538CE006D74C1 /* DuffChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuffChessTests.m; sourceTree = "<group>"; };
-		427389AD19A53985006D74C1 /* DuffChessBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuffChessBoard.h; sourceTree = "<group>"; };
-		427389AE19A53985006D74C1 /* DuffChessBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuffChessBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				4273898B19A538CD006D74C1 /* DuffAppDelegate.h */,
-				427389AD19A53985006D74C1 /* DuffChessBoard.h */,
-				427389AE19A53985006D74C1 /* DuffChessBoard.m */,
 				4273898C19A538CD006D74C1 /* DuffAppDelegate.m */,
 				4273898E19A538CE006D74C1 /* MainMenu.xib */,
 				4273899119A538CE006D74C1 /* Images.xcassets */,
@@ -260,7 +255,6 @@
 			files = (
 				4273898619A538CD006D74C1 /* main.m in Sources */,
 				4273898D19A538CD006D74C1 /* DuffAppDelegate.m in Sources */,
-				427389AF19A53985006D74C1 /* DuffChessBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
